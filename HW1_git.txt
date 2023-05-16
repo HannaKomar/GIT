@@ -1,0 +1,159 @@
+﻿JSON
+
+ 1. Создать внешний репозиторий c названием JSON                GitHub/Repositories/New/JSON
+ 2. Клонировать репозиторий JSON на локальный компьютер         git clone https://github.com/HannaKomar/JSON.git
+ 3. Внутри локального JSON создать файл "new.json"              cd JSON
+                                                                touch new.json
+ 4. Добавить файл под гит                                       git add new.json
+ 5. Закоммитить файл                                            git commit -m "Added new.json"
+ 6. Отправить файл на внешний GitHub репозиторий                git push
+ 7. Отредактировать содержание файла "new.json"                 cat >> new.json
+ 
+ { 
+     "person" :"Hanna Komar",
+	 "age" : 36,
+	 "pet" : "there is no",
+	 "salary" : "800$"
+ }
+
+ 8. Отправить изменения на внешний репозиторий                  git add .
+                                                                git status
+                                                                git commit -m "Added changes to new.json"
+                                                                git status
+                                                                git push
+ 9. Создать файл preferences.json                               touch preferences.json
+                                                        
+ 10. В файл preferences.json добавить информацию о своих предпочтениях   cat >> preferences.json
+
+ { 
+    "preferences" :"favourites",
+	"movie" : "Doctor Strange",
+	"series" : "The Mentalist",
+	"food" : "cheese",
+	"season" : "summer"
+	"country" : {
+	       "on_trip" : "Italy",
+	       "to_visit" : "UK",
+	       "to_stay_for_a_while" : "Spain",
+	       "to_live" : "Poland",
+	       "my_native" : "Belarus"
+   }
+}
+ 
+ 11. Создать файл skills.json, добавить информацию о скиллах   cat> skills.json 
+ 
+ { 
+        "Skills" : "basics",
+	"Git" : "gitBash, gitHub",
+	"Client-server_architecture" : "http requests, http responses, web-server, web-client, http status codes",
+	"SQL_queries" : "commands create, delete, drop, insert into, select, from, where, join",
+	"API_testing" : "json, xml, Postman",
+	"Traffic_sniffing" : "Charles, Fiddler",
+	"DevTools" : "basic skills in Google Crome, FireFox ",
+	"VPN" : "exploitation, instruments",
+	"Load_testing" : "Jmetr",
+	"Mobile_testing" : "basic knowledge",
+        "Python" : "basic knowledge",
+	"Theory" : "types of testing, methods, testing levels, test design techniques, methodologies, SDLC, STLC",
+	"Creation_of_test_documentation" : "test cases, check-lists, bug reports and test plans, TRR"	 
+ }
+ 
+ 12. Отправить сразу 2 файла на внешний репозиторий           git add .
+                                                              git status
+                                                              git commit -m "Added new files"
+                                                              git status 
+                                                              git push
+ 
+ 13. На веб интерфейсе создать файл bug_report.json           GitHub/Add file/Create new file/bug_report.json
+ 14. Сделать Commit changes (сохранить) изменения на веб интерфейсе GitHub/Commit new file
+ 15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON     GitHub/Edit this file
+ 
+ {  
+   "id": "0001",
+   "summary" : "user login error",
+   "priority" : "ASAP",
+   "severity" : "critical",
+   "environment" : "windows 10 Pro, Google Chrome",
+   "steps_to_reproduce" : {
+	                 "step_1" : "click on the login button",
+	                 "step_2" : "fill in the user's email and password field with valid data",
+	                 "step_3 " : "click the continue button",
+   }
+   "expected_result" : "user logins via button login",
+   "actual_result" : "button login is not clickable",
+   "attachment" : "error.wmv"
+}
+ 
+ 16. Сделать Commit changes (сохранить) изменения на веб интерфейсе       GitHub/Commit changes
+ 17. Синхронизировать внешний и локальный репозиторий JSON    git status
+                                                              git pull
+ 
+ 
+XML
+
+ 18. Создать внешний репозиторий c названием XML              Github/Repositories/New/XML
+ 19. Клонировать репозиторий XML на локальный компьютер       git clone https://github.com/HannaKomar/XML.git
+ 20. Внутри локального XML создать файл "new.xml"             cd XML
+                                                              touch new.xml
+ 21. Добавить файл под гит                                    git add new.xml
+ 22. Закоммитить файл                                         git commit -m "Added new.xml"
+ 23. Отправить файл на внешний GitHub репозиторий             git push
+ 24. Отредактировать содержание файла "new.xml" - написать информацию о себе  cat >> new.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<new>
+<person>Hanna Komar</person>
+<age>36</age>
+<pet>there is no</pet>
+<salary>800$</salary>
+</new>
+
+ 25. Отправить изменения на внешний репозиторий               git add .
+                                                              git status
+                                                              git commit -m "Added changes to new.xml"
+                                                              git status
+                                                              git push
+ 26. Создать файл preferences.xml                             touch preferences.xml
+ 27. В файл preferences.xml добавить информацию о своих предпочтениях  cat >> preferences.xml
+ 
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+<movie>Doctor Strange</movie>
+<series>The Mentalist</series>
+<food>cheese</food>
+<season>summer</season>
+ <country>
+  <on_trip>Italy</on_trip>
+  <to_visit>UK</to_visit>
+  <to_stay_for_a_while>Spain</to_stay_for_a_while>
+  <my_native>Belarus</my_native>
+ </country>
+</preferences>
+
+ 28. Создать файл sklls.xml добавить информацию о скиллах  touch sklls.xml
+ 29. Сделать коммит в одну строку                          git commit -am "Added new files"
+ 30. Отправить сразу 2 файла на внешний репозиторий        git push
+ 31. На веб интерфейсе создать файл bug_report.xml         GitHub/Add file/Create new file/bug_report.xml
+ 32. Сделать Commit changes (сохранить) изменения на веб интерфейсе      GitHub/Commit new file
+ 33. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML       GitHub/Edit this file
+ 
+ <?xml version="1.0" encoding="UTF-8"?>
+<bug_report>
+<id>0001</id>
+<summary>user login error</summary>
+<priority>ASAP</priority>
+<severity>critical</severity>
+<environment>windows 10 Pro, Google Chrome</environment>
+ <steps_to_reproduce>
+  <step_1>click on the login button</step_1>
+  <step_2>fill in the user's email and password field with valid data</step_2>
+  <step_3>click the continue button</step_3>
+ </steps_to_reproduce>
+<expected_result>user logins via button login</expected_result>
+<actual_result>button login is not clickable</actual_result>
+<attachment>error.wmv</attachment> 
+</bug_report>/
+
+ 34. Сделать Commit changes (сохранить) изменения на веб интерфейсе   GitHub/Commit changes
+ 35. Синхронизировать внешний и локальный репозиторий XML             git status
+                                                                      git pull
